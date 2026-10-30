@@ -1,0 +1,70 @@
+nohup: ignoring input
+[2026-10-29 18:51:10 -0300] [855182] [INFO] Starting gunicorn 26.2.0
+[2026-10-29 18:51:10 -0300] [855182] [INFO] Listening at: http://0.0.0.0:5020 (855182)
+[2026-10-29 18:51:10 -0300] [855182] [INFO] Using worker: sync
+[2026-10-29 18:51:10 -0300] [855183] [INFO] Booting worker with pid: 855183
+[2026-10-29 18:51:10 -0300] [855184] [INFO] Booting worker with pid: 855184
+[2026-10-29 18:51:10 -0300] [855185] [INFO] Booting worker with pid: 855185
+[2026-10-29 18:51:10 -0300] [855182] [INFO] Control socket listening at /root/.gunicorn/gunicorn.ctl
+[2026-10-30 08:58:03 -0300] [855182] [CRITICAL] WORKER TIMEOUT (pid:855183)
+[2026-10-30 08:58:03 -0300] [855182] [CRITICAL] WORKER TIMEOUT (pid:855184)
+[2026-10-30 08:58:03 -0300] [855183] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/workers/sync.py", line 140, in handle
+    req = next(parser)
+          ^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/parser.py", line 111, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 506, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 319, in __init__
+    unused = self.parse(self.unreader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 518, in parse
+    self.read_into(unreader, buf, stop=True)
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 653, in read_into
+    data = unreader.read()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 48, in read
+    d = self.chunk()
+        ^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 77, in chunk
+    return self.sock.recv(self.mxchunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 199, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2026-10-30 08:58:03 -0300] [855184] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/workers/sync.py", line 140, in handle
+    req = next(parser)
+          ^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/parser.py", line 111, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 506, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 319, in __init__
+    unused = self.parse(self.unreader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 518, in parse
+    self.read_into(unreader, buf, stop=True)
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/message.py", line 653, in read_into
+    data = unreader.read()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 48, in read
+    d = self.chunk()
+        ^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 77, in chunk
+    return self.sock.recv(self.mxchunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/api_mutuca/venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 199, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2026-10-30 08:58:04 -0300] [855182] [ERROR] Worker (pid:855183) was sent SIGKILL! Perhaps out of memory?
+[2026-10-30 08:58:04 -0300] [855182] [ERROR] Worker (pid:855184) was sent SIGKILL! Perhaps out of memory?
+[2026-10-30 08:58:04 -0300] [868407] [INFO] Booting worker with pid: 868407
+[2026-10-30 08:58:04 -0300] [855182] [INFO] Control socket listening at /root/.gunicorn/gunicorn.ctl
+[2026-10-30 08:58:04 -0300] [868409] [INFO] Booting worker with pid: 868409
+[2026-10-30 08:58:04 -0300] [855182] [INFO] Control socket listening at /root/.gunicorn/gunicorn.ctl

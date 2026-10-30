@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Login - Sistema de Consultas</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            font-family:
+                'Segoe UI',
+                Tahoma,
+                Geneva,
+                Verdana,
+                sans-serif;
+        }
+
+
+        /* ========================================= */
+        /* FUNDO DA PÁGINA                          */
+        /* ========================================= */
+
+        body {
+
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 30px;
+
+            background-image:
+
+                linear-gradient(
+                    rgba(0, 0, 0, 0.30),
+                    rgba(0, 0, 0, 0.30)
+                ),
+
+                url("{{ url_for('static', filename='img/fundo.jpg') }}");
+
+            background-size: cover;
+
+            background-position: center center;
+
+            background-repeat: no-repeat;
+
+            background-attachment: fixed;
+        }
+
+
+        /* ========================================= */
+        /* CONTAINER DO LOGIN                       */
+        /* ========================================= */
+
+        .login-box {
+
+            background: rgba(255, 255, 255, 0.94);
+
+            padding: 40px;
+
+            border-radius: 15px;
+
+            box-shadow:
+                0 15px 40px rgba(0, 0, 0, 0.40);
+
+            width: 100%;
+
+            max-width: 400px;
+
+            backdrop-filter: blur(4px);
+        }
+
+
+        /* ========================================= */
+        /* LOGO                                     */
+        /* ========================================= */
+
+        .logo-area {
+
+            width: 100%;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            margin-bottom: 25px;
+        }
+
+
+        .logo {
+
+            width: 220px;
+
+            max-width: 90%;
+
+            height: auto;
+
+            display: block;
+        }
+
+
+        /* ========================================= */
+        /* TÍTULO                                   */
+        /* ========================================= */
+
+        .login-box h2 {
+
+            text-align: center;
+
+            margin-bottom: 30px;
+
+            color: #1e3c72;
+        }
+
+
+        /* ========================================= */
+        /* CAMPOS                                   */
+        /* ========================================= */
+
+        .input-group {
+
+            margin-bottom: 20px;
+        }
+
+
+        .input-group label {
+
+            display: block;
+
+            margin-bottom: 6px;
+
+            color: #333;
+
+            font-weight: 500;
+        }
+
+
+        .input-group input {
+
+            width: 100%;
+
+            padding: 12px 15px;
+
+            border: 1px solid #ddd;
+
+            border-radius: 8px;
+
+            font-size: 15px;
+
+            transition: 0.3s;
+
+            background: white;
+        }
+
+
+        .input-group input:focus {
+
+            border-color: #2a5298;
+
+            outline: none;
+
+            box-shadow:
+                0 0 0 3px rgba(42, 82, 152, 0.20);
+        }
+
+
+        /* ========================================= */
+        /* BOTÃO                                    */
+        /* ========================================= */
+
+        button {
+
+            width: 100%;
+
+            padding: 13px;
+
+            background: #2a5298;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 8px;
+
+            font-size: 16px;
+
+            font-weight: 600;
+
+            cursor: pointer;
+
+            transition: 0.3s;
+        }
+
+
+        button:hover {
+
+            background: #1e3c72;
+
+            transform: translateY(-1px);
+        }
+
+
+        /* ========================================= */
+        /* MENSAGEM DE ERRO                         */
+        /* ========================================= */
+
+        .erro {
+
+            background: #ffe0e0;
+
+            color: #c0392b;
+
+            padding: 10px;
+
+            border-radius: 6px;
+
+            margin-bottom: 20px;
+
+            text-align: center;
+
+            font-size: 14px;
+        }
+
+
+        /* ========================================= */
+        /* CELULAR                                  */
+        /* ========================================= */
+
+        @media (max-width: 500px) {
+
+            body {
+
+                padding: 20px;
+            }
+
+
+            .login-box {
+
+                padding: 30px 25px;
+            }
+
+
+            .logo {
+
+                width: 180px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div class="login-box">
+
+
+        <!-- ===================================== -->
+        <!-- LOGO                                  -->
+        <!-- ===================================== -->
+
+        <div class="logo-area">
+
+            <img
+                src="{{ url_for('static', filename='img/logo.png') }}"
+                alt="Posto Mutuca"
+                class="logo"
+            >
+
+        </div>
+
+
+        <!-- ===================================== -->
+        <!-- TÍTULO                                -->
+        <!-- ===================================== -->
+
+        <h2>
+            Acesso ao Sistema
+        </h2>
+
+
+        <!-- ===================================== -->
+        <!-- MENSAGENS                              -->
+        <!-- ===================================== -->
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+
+            {% if messages %}
+
+                {% for category, message in messages %}
+
+                    <div class="erro">
+                        {{ message }}
+                    </div>
+
+                {% endfor %}
+
+            {% endif %}
+
+        {% endwith %}
+
+
+        <!-- ===================================== -->
+        <!-- LOGIN                                  -->
+        <!-- ===================================== -->
+
+        <form method="POST">
+
+
+            <div class="input-group">
+
+                <label for="usuario">
+                    Usuário
+                </label>
+
+                <input
+                    type="text"
+                    id="usuario"
+                    name="usuario"
+                    required
+                    autofocus
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label for="senha">
+                    Senha
+                </label>
+
+                <input
+                    type="password"
+                    id="senha"
+                    name="senha"
+                    required
+                >
+
+            </div>
+
+
+            <button type="submit">
+                Entrar
+            </button>
+
+
+        </form>
+
+
+    </div>
+
+
+</body>
+
+</html>

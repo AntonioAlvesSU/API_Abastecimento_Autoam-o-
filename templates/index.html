@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Executor PostgreSQL</title>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.datatables.net/2.0.0/css/dataTables.dataTables.min.css"
+    >
+
+    <script src="https://cdn.datatables.net/2.0.0/js/dataTables.min.js"></script>
+
+
+    <style>
+
+        /* ================================================= */
+        /* PÁGINA / IMAGEM DE FUNDO */
+        /* ================================================= */
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 30px;
+
+            min-height: 100vh;
+
+            box-sizing: border-box;
+
+            background:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.20),
+                    rgba(0, 0, 0, 0.20)
+                ),
+                url("{{ url_for('static', filename='img/fundo.jpg') }}");
+
+            background-size: cover;
+
+            background-position: center;
+
+            background-repeat: repeat;
+
+            background-attachment: fixed;
+
+        }
+
+
+        /* ================================================= */
+        /* LOGO POSTO MUTUCA */
+        /* ================================================= */
+
+        .logo-area {
+
+            width: 100%;
+
+            display: flex;
+
+            justify-content: right;
+
+            align-items: right;
+
+            margin-bottom: 30px;
+
+        }
+
+
+        .logo-posto {
+
+            width: 120px;
+
+            max-width: 80%;
+
+            height: auto;
+
+            background: rgba(255, 255, 255, 0.92);
+
+            padding: 08px;
+
+            border-radius: 18px;
+
+            box-shadow:
+                0 5px 20px rgba(0, 0, 0, 0.45);
+
+        }
+
+
+        /* ================================================= */
+        /* CARD PRINCIPAL */
+        /* ================================================= */
+
+        .card {
+
+            background: rgba(255, 255, 255, 0.93);
+
+            padding: 30px;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 0 25px rgba(0, 0, 0, 0.40);
+
+            max-width: 1100px;
+
+            margin: auto;
+
+            backdrop-filter: blur(3px);
+
+        }
+
+
+        h2 {
+
+            margin-bottom: 25px;
+
+        }
+
+
+        .campo {
+
+            display: block;
+
+            font-weight: bold;
+
+            margin-top: 15px;
+
+            margin-bottom: 5px;
+
+        }
+
+
+        select,
+        input[type="text"],
+        input[type="number"],
+        input[type="password"],
+        textarea {
+
+            width: 100%;
+
+            box-sizing: border-box;
+
+            padding: 10px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+
+            margin-bottom: 10px;
+
+        }
+
+
+        textarea {
+
+            resize: vertical;
+
+            font-family: Consolas, monospace;
+
+        }
+
+
+        /* ================================================= */
+        /* BOTÕES */
+        /* ================================================= */
+
+        button {
+
+            background: #007bff;
+
+            color: white;
+
+            border: 0;
+
+            padding: 12px 25px;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+            font-size: 15px;
+
+        }
+
+
+        button:hover {
+
+            background: #0056b3;
+
+        }
+
+
+        /* ================================================= */
+        /* MENSAGEM OK */
+        /* ================================================= */
+
+        .ok {
+
+            background: #c8f7c5;
+
+            padding: 15px;
+
+            margin-top: 20px;
+
+            border-radius: 5px;
+
+        }
+
+
+        /* ================================================= */
+        /* MENSAGEM ERRO */
+        /* ================================================= */
+
+        .erro {
+
+            background: #ffcccc;
+
+            padding: 15px;
+
+            margin-top: 20px;
+
+            border-radius: 5px;
+
+        }
+
+
+        /* ================================================= */
+        /* ACESSO MANUAL */
+        /* ================================================= */
+
+        .manual-box {
+
+            background: #f8f9fa;
+
+            border: 1px solid #ddd;
+
+            padding: 20px;
+
+            border-radius: 8px;
+
+            margin-top: 15px;
+
+        }
+
+
+        /* ================================================= */
+        /* RESULTADO */
+        /* ================================================= */
+
+        .resultado {
+
+            margin-top: 25px;
+
+        }
+
+
+        pre {
+
+            background: #272822;
+
+            color: #f8f8f2;
+
+            padding: 15px;
+
+            overflow-x: auto;
+
+            border-radius: 5px;
+
+            white-space: pre-wrap;
+
+        }
+
+
+        table {
+
+            width: 100%;
+
+        }
+
+
+        /* ================================================= */
+        /* BOTÃO VER RESULTADO */
+        /* ================================================= */
+
+        .btn-resultado {
+
+            background: #28a745;
+
+            margin-top: 10px;
+
+        }
+
+
+        .btn-resultado:hover {
+
+            background: #218838;
+
+        }
+
+
+        /* ================================================= */
+        /* MODAL */
+        /* ================================================= */
+
+        .modal {
+
+            display: none;
+
+            position: fixed;
+
+            z-index: 9999;
+
+            left: 0;
+
+            top: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+            background-color:
+                rgba(0, 0, 0, 0.65);
+
+        }
+
+
+        /* ================================================= */
+        /* CONTEÚDO DO MODAL */
+        /* ================================================= */
+
+        .modal-conteudo {
+
+            background-color: white;
+
+            width: 92%;
+
+            height: 88%;
+
+            margin: 3% auto;
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            box-shadow:
+                0 0 20px #333;
+
+            position: relative;
+
+            box-sizing: border-box;
+
+        }
+
+
+        .modal-titulo {
+
+            margin-top: 0;
+
+            margin-bottom: 15px;
+
+        }
+
+
+        /* ================================================= */
+        /* BOTÃO FECHAR MODAL */
+        /* ================================================= */
+
+        .fechar-modal {
+
+            position: absolute;
+
+            right: 20px;
+
+            top: 10px;
+
+            font-size: 32px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+            color: #555;
+
+        }
+
+
+        .fechar-modal:hover {
+
+            color: red;
+
+        }
+
+
+        /* ================================================= */
+        /* ÁREA DA TABELA */
+        /* ================================================= */
+
+        .tabela-container {
+
+            width: 100%;
+
+            height: calc(100% - 65px);
+
+            overflow: auto;
+
+        }
+
+
+        /* ================================================= */
+        /* CABEÇALHO FIXO */
+        /* ================================================= */
+
+        #dados thead th {
+
+            position: sticky;
+
+            top: 0;
+
+            z-index: 2;
+
+            background: #f2f2f2;
+
+        }
+
+
+        #dados th,
+        #dados td {
+
+            white-space: nowrap;
+
+        }
+
+
+        /* ================================================= */
+        /* TOPO DO CARD / AÇÕES DO RESULTADO */
+        /* ================================================= */
+
+        .card-topo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .card-topo h2 {
+            margin: 0;
+        }
+
+        .acoes-resultado {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .btn-ver-resultado,
+        .btn-csv {
+            margin: 0;
+            padding: 10px 18px;
+            font-size: 14px;
+        }
+
+        .btn-ver-resultado {
+            background: #007bff;
+        }
+
+        .btn-ver-resultado:hover {
+            background: #0056b3;
+        }
+
+        .btn-csv {
+            background: #28a745;
+        }
+
+        .btn-csv:hover {
+            background: #218838;
+        }
+
+        /* ================================================= */
+        /* CELULAR / TABLET */
+        /* ================================================= */
+
+        @media (max-width: 768px) {
+
+            body {
+
+                padding: 15px;
+
+            }
+
+
+            .logo-posto {
+
+                width: 220px;
+
+            }
+
+
+            .card {
+
+                padding: 20px;
+
+            }
+
+            .card-topo {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .acoes-resultado {
+                width: 100%;
+            }
+
+        }
+
+
+
+        /* PARAMETROS DA CONSULTA DE ABASTECIMENTOS */
+        .parametros-box { display: none; margin-top: 18px; padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 8px; }
+        .parametros-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 18px; }
+        .parametros-grid label { display: block; font-weight: bold; margin-bottom: 6px; }
+        .parametros-grid input { width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        @media (max-width: 768px) { .parametros-grid { grid-template-columns: 1fr; } }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- ================================================= -->
+<!-- LOGO -->
+<!-- ================================================= -->
+
+<div class="logo-area">
+
+    <img
+        src="{{ url_for('static', filename='img/Logo.png') }}"
+        alt="Posto Mutuca"
+        class="logo-posto"
+    >
+
+</div>
+
+
+<!-- ================================================= -->
+<!-- CARD PRINCIPAL -->
+<!-- ================================================= -->
+
+<div class="card">
+
+
+    <div class="card-topo">
+
+        <h2>Executor PostgreSQL</h2>
+
+        {% if retorno and retorno.status == 'OK' and colunas %}
+
+            <div class="acoes-resultado">
+
+                <button
+                    type="button"
+                    class="btn-ver-resultado"
+                    onclick="abrirResultado()"
+                >
+                    👁️ Ver resultado
+                </button>
+
+                {% if session.get("arquivo_csv") %}
+                <button
+                    type="submit"
+                    form="form-csv"
+                    class="btn-csv"
+                >
+                    📥 Baixar CSV
+                </button>
+                {% endif %}
+
+            </div>
+
+        {% endif %}
+
+    </div>
+
+
+    <form method="POST">
+
+
+        <!-- ================================================= -->
+        <!-- TIPO DE CONEXÃO -->
+        <!-- ================================================= -->
+
+        <label class="campo">
+
+            Tipo de conexão
+
+        </label>
+
+
+        <select
+            name="tipo_conexao"
+            id="tipo_conexao"
+        >
+
+            <option value="servidor">
+
+                Servidor cadastrado
+
+            </option>
+
+            <option value="manual">
+
+                Acesso manual ao banco
+
+            </option>
+
+        </select>
+
+
+        <!-- ================================================= -->
+        <!-- SERVIDOR CADASTRADO -->
+        <!-- ================================================= -->
+
+        <div id="servidor_box">
+
+
+            <label class="campo">
+
+                Servidor
+
+            </label>
+
+
+            <select name="servidor">
+
+
+                {% for s in servidores %}
+
+
+                    <option value="{{ s }}">
+
+                        {{ s }}
+
+                    </option>
+
+
+                {% endfor %}
+
+
+            </select>
+
+
+        </div>
+
+
+        <!-- ================================================= -->
+        <!-- ACESSO MANUAL -->
+        <!-- ================================================= -->
+
+        <div
+            id="manual_box"
+            class="manual-box"
+            style="display:none;"
+        >
+
+
+            <h3>
+
+                Acesso manual ao PostgreSQL
+
+            </h3>
+
+
+            <label class="campo">
+
+                Host / IP
+
+            </label>
+
+
+            <input
+                type="text"
+                name="host_manual"
+                placeholder="Exemplo: 192.168.1.100"
+            >
+
+
+            <label class="campo">
+
+                Porta
+
+            </label>
+
+
+            <input
+                type="number"
+                name="port_manual"
+                value="5432"
+            >
+
+
+            <label class="campo">
+
+                Banco de dados
+
+            </label>
+
+
+            <input
+                type="text"
+                name="database_manual"
+                placeholder="Nome do banco"
+            >
+
+
+            <label class="campo">
+
+                Usuário
+
+            </label>
+
+
+            <input
+                type="text"
+                name="user_manual"
+                value="postgres"
+                placeholder="Usuário PostgreSQL"
+            >
+
+
+            <label class="campo">
+
+                Senha
+
+            </label>
+
+
+            <input
+                type="password"
+                name="password_manual"
+                placeholder="Senha"
+            >
+
+
+        </div>
+
+
+        <!-- ================================================= -->
+        <!-- CONSULTA PRONTA -->
+        <!-- ================================================= -->
+
+        <label class="campo">
+
+            Consulta pronta
+
+        </label>
+
+
+        <select name="consulta_predefinida" id="consulta_predefinida">
+
+
+            <option value="">
+
+                -- Selecione uma consulta --
+
+            </option>
+
+
+            {% for c in consultas %}
+
+
+                <option value="{{ c }}">
+
+                    {{ c }}
+
+                </option>
+
+
+            {% endfor %}
+
+
+        </select>
+
+
+        <!-- PARAMETROS DA CONSULTA ABASTECIMENTOS -->
+        <div id="parametros_abastecimentos" class="parametros-box">
+            <h3>Parâmetros da Consulta de Abastecimentos</h3>
+            <div class="parametros-grid">
+                <div><label for="data_inicial">Data inicial</label><input type="date" id="data_inicial" name="data_inicial" value="{{ request.form.get('data_inicial', '2026-01-01') }}" disabled></div>
+                <div><label for="data_final">Data final</label><input type="date" id="data_final" name="data_final" value="{{ request.form.get('data_final', '2026-10-21') }}" disabled></div>
+                <div><label for="cpf_cliente">CPF do cliente</label><input type="text" id="cpf_cliente" name="cpf_cliente" maxlength="14" placeholder="Ex.: 123.456.789-00" value="{{ request.form.get('cpf_cliente', '123.456.789-00') }}" disabled></div>
+                <div><label for="codigo_posto">Código do posto (identificador no relatório)</label><input type="text" id="codigo_posto" name="codigo_posto" maxlength="5" value="{{ request.form.get('codigo_posto', '14689') }}" disabled></div>
+            </div>
+        </div>
+
+        <!-- ================================================= -->
+        <!-- COMMIT -->
+        <!-- ================================================= -->
+
+        <input
+            type="checkbox"
+            name="commit"
+            id="commit"
+        >
+
+
+        <label for="commit">
+
+            Executar COMMIT
+
+        </label>
+
+
+        <br>
+        <br>
+
+
+        <button type="submit">
+
+            Executar Consulta
+
+        </button>
+
+
+    </form>
+
+
+    {% with mensagens = get_flashed_messages(with_categories=true) %}
+        {% for categoria, mensagem in mensagens %}
+            <div class="{{ 'erro' if categoria == 'erro' else 'ok' }}" role="alert">{{ mensagem }}</div>
+        {% endfor %}
+    {% endwith %}
+
+    <!-- ================================================= -->
+    <!-- RETORNO -->
+    <!-- ================================================= -->
+
+    {% if retorno %}
+
+
+        <div
+            class="{{ 'ok' if retorno.status == 'OK' else 'erro' }}"
+        >
+
+
+            <h3>
+
+                {{ retorno.status }}
+
+            </h3>
+
+
+            <strong>
+
+                Servidor:
+
+            </strong>
+
+            {{ retorno.servidor }}
+
+
+            <br>
+            <br>
+
+
+            <strong>
+
+                Consulta:
+
+            </strong>
+
+            {{ retorno.consulta }}
+
+
+            <br>
+            <br>
+
+
+            <strong>
+
+                Registros:
+
+            </strong>
+
+            {{ retorno.registros }}
+
+
+            <br>
+            <br>
+
+
+            <strong>
+
+                Horário:
+
+            </strong>
+
+            {{ retorno.hora }}
+
+
+            <br>
+            <br>
+
+
+            <strong>
+
+                Mensagem:
+
+            </strong>
+
+            {{ retorno.mensagem }}
+
+
+        </div>
+
+
+        {% if retorno.sql %}
+
+
+            <h3>
+
+                SQL executado
+
+            </h3>
+
+
+            <pre>{{ retorno.sql }}</pre>
+
+
+        {% endif %}
+
+
+    {% endif %}
+
+
+    <!-- ================================================= -->
+    <!-- RESULTADO -->
+    <!-- ================================================= -->
+
+    {% if retorno and retorno.status == 'OK' and colunas %}
+
+
+        <div class="resultado">
+
+
+            <h3>
+
+                Resultado da Consulta
+
+            </h3>
+
+
+            <p>
+
+                <strong>
+
+                    {{ retorno.registros }}
+
+                </strong>
+
+                registro(s) encontrado(s).
+
+            </p>
+
+
+            <!-- Formulário do CSV fica fora do formulário principal.
+                 O botão no topo usa o atributo form="form-csv". -->
+            <form
+                id="form-csv"
+                method="POST"
+                action="{{ url_for('exportar_csv') }}"
+                style="display: none;"
+            ></form>
+
+
+        </div>
+
+
+        <!-- ================================================= -->
+        <!-- MODAL RESULTADO -->
+        <!-- ================================================= -->
+
+        <div
+            id="modalResultado"
+            class="modal"
+            onclick="fecharAoClicarFora(event)"
+        >
+
+
+            <div
+                class="modal-conteudo"
+                onclick="event.stopPropagation()"
+            >
+
+
+                <span
+                    class="fechar-modal"
+                    onclick="fecharResultado()"
+                >
+
+                    &times;
+
+                </span>
+
+
+                <h2 class="modal-titulo">
+
+                    Resultado da Consulta
+
+                </h2>
+
+
+                <div class="tabela-container">
+
+
+                    <table
+                        id="dados"
+                        class="display"
+                        style="width:100%"
+                    >
+
+
+                        <thead>
+
+
+                            <tr>
+
+
+                                {% for coluna in colunas %}
+
+
+                                    <th>
+
+                                        {{ coluna }}
+
+                                    </th>
+
+
+                                {% endfor %}
+
+
+                            </tr>
+
+
+                        </thead>
+
+
+                        <tbody>
+
+
+                            {% for linha in resultado %}
+
+
+                                <tr>
+
+
+                                    {% for campo in linha %}
+
+
+                                        <td>
+
+                                            {{ campo }}
+
+                                        </td>
+
+
+                                    {% endfor %}
+
+
+                                </tr>
+
+
+                            {% endfor %}
+
+
+                        </tbody>
+
+
+                    </table>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <!-- ================================================= -->
+        <!-- DATATABLE -->
+        <!-- ================================================= -->
+
+        <script>
+
+
+            let tabelaInicializada = false;
+
+
+            function abrirResultado() {
+
+
+                const modal =
+                    document.getElementById(
+                        "modalResultado"
+                    );
+
+
+                modal.style.display = "block";
+
+
+                if (!tabelaInicializada) {
+
+
+                    new DataTable(
+                        "#dados",
+                        {
+
+                            pageLength: 25,
+
+
+                            lengthMenu: [
+
+                                [
+                                    10,
+                                    25,
+                                    50,
+                                    100,
+                                    -1
+                                ],
+
+                                [
+                                    10,
+                                    25,
+                                    50,
+                                    100,
+                                    "Todos"
+                                ]
+
+                            ],
+
+
+                            language: {
+
+
+                                search:
+                                    "Pesquisar:",
+
+
+                                lengthMenu:
+                                    "Mostrar _MENU_ registros",
+
+
+                                info:
+                                    "Mostrando _START_ até _END_ de _TOTAL_ registros",
+
+
+                                infoEmpty:
+                                    "Nenhum registro",
+
+
+                                zeroRecords:
+                                    "Nenhum registro encontrado",
+
+
+                                paginate: {
+
+
+                                    first:
+                                        "Primeiro",
+
+
+                                    last:
+                                        "Último",
+
+
+                                    next:
+                                        "Próximo",
+
+
+                                    previous:
+                                        "Anterior"
+
+
+                                }
+
+
+                            }
+
+
+                        }
+                    );
+
+
+                    tabelaInicializada = true;
+
+
+                }
+
+
+            }
+
+
+            function fecharResultado() {
+
+
+                document.getElementById(
+                    "modalResultado"
+                ).style.display = "none";
+
+
+            }
+
+
+            function fecharAoClicarFora(event) {
+
+
+                if (
+                    event.target ===
+                    document.getElementById(
+                        "modalResultado"
+                    )
+                ) {
+
+
+                    fecharResultado();
+
+
+                }
+
+
+            }
+
+
+            document.addEventListener(
+                "keydown",
+                function(event) {
+
+
+                    if (event.key === "Escape") {
+
+
+                        fecharResultado();
+
+
+                    }
+
+
+                }
+            );
+
+
+        </script>
+
+
+    {% endif %}
+
+
+</div>
+
+
+<!-- ================================================= -->
+<!-- CONTROLE TIPO DE CONEXÃO -->
+<!-- ================================================= -->
+
+<script>
+
+
+    const tipoConexao =
+        document.getElementById(
+            "tipo_conexao"
+        );
+
+
+    const servidorBox =
+        document.getElementById(
+            "servidor_box"
+        );
+
+
+    const manualBox =
+        document.getElementById(
+            "manual_box"
+        );
+
+
+    function alterarConexao() {
+
+
+        if (
+            tipoConexao.value === "manual"
+        ) {
+
+
+            servidorBox.style.display =
+                "none";
+
+
+            manualBox.style.display =
+                "block";
+
+
+        } else {
+
+
+            servidorBox.style.display =
+                "block";
+
+
+            manualBox.style.display =
+                "none";
+
+
+        }
+
+
+    }
+
+
+    tipoConexao.addEventListener(
+        "change",
+        alterarConexao
+    );
+
+
+    alterarConexao();
+
+
+</script>
+
+
+
+<script>
+(function () {
+    const consulta = document.getElementById('consulta_predefinida');
+    const box = document.getElementById('parametros_abastecimentos');
+    if (!consulta || !box) return;
+    const campos = box.querySelectorAll('input');
+    function atualizarParametros() {
+        const ativo = consulta.value.trim().toLowerCase() === 'abastecimentos';
+        box.style.display = ativo ? 'block' : 'none';
+        campos.forEach(campo => { campo.disabled = !ativo; });
+        document.getElementById('data_inicial').required = ativo;
+        document.getElementById('data_final').required = ativo;
+    }
+    consulta.addEventListener('change', atualizarParametros);
+    atualizarParametros();
+})();
+</script>
+
+</body>
+
+</html>

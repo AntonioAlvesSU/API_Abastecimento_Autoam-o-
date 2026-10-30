@@ -1,0 +1,576 @@
+2026-10-29 17:30:01,663 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 17:30:01,664 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 17:30:01,664 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 17:30:01,664 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 17:30:01,993 - INFO - Consulta finalizada: 114 registros
+2026-10-29 17:30:01,997 - INFO - CSV gerado: relatorio_mutuca_20261029_173001.csv
+2026-10-29 17:30:04,679 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 17:30:04,681 - INFO - Automacao concluida com sucesso
+2026-10-29 17:45:01,967 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 17:45:01,967 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 17:45:01,967 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 17:45:01,967 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 17:45:02,286 - INFO - Consulta finalizada: 114 registros
+2026-10-29 17:45:02,290 - INFO - CSV gerado: relatorio_mutuca_20261029_174502.csv
+2026-10-29 17:45:05,169 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 17:45:05,171 - INFO - Automacao concluida com sucesso
+2026-10-29 18:00:01,450 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 18:00:01,450 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 18:00:01,450 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 18:00:01,451 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 18:00:01,736 - INFO - Consulta finalizada: 114 registros
+2026-10-29 18:00:01,741 - INFO - CSV gerado: relatorio_mutuca_20261029_180001.csv
+2026-10-29 18:00:04,629 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 18:00:04,631 - INFO - Automacao concluida com sucesso
+2026-10-29 18:15:01,909 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 18:15:01,910 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 18:15:01,910 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 18:15:01,910 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 18:15:02,210 - INFO - Consulta finalizada: 114 registros
+2026-10-29 18:15:02,215 - INFO - CSV gerado: relatorio_mutuca_20261029_181502.csv
+2026-10-29 18:15:04,849 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 18:15:04,851 - INFO - Automacao concluida com sucesso
+2026-10-29 18:30:02,140 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 18:30:02,140 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 18:30:02,140 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 18:30:02,140 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 18:30:02,456 - INFO - Consulta finalizada: 114 registros
+2026-10-29 18:30:02,457 - INFO - CSV gerado: relatorio_mutuca_20261029_183002.csv
+2026-10-29 18:30:06,878 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 18:30:06,880 - INFO - Automacao concluida com sucesso
+2026-10-29 18:45:01,194 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 18:45:01,195 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 18:45:01,195 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 18:45:01,195 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 18:45:01,495 - INFO - Consulta finalizada: 114 registros
+2026-10-29 18:45:01,500 - INFO - CSV gerado: relatorio_mutuca_20261029_184501.csv
+2026-10-29 18:45:04,167 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 18:45:04,169 - INFO - Automacao concluida com sucesso
+2026-10-29 19:00:01,446 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 19:00:01,446 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 19:00:01,446 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 19:00:01,447 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 19:00:01,738 - INFO - Consulta finalizada: 115 registros
+2026-10-29 19:00:01,741 - INFO - CSV gerado: relatorio_mutuca_20261029_190001.csv
+2026-10-29 19:00:04,471 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 19:00:04,473 - INFO - Automacao concluida com sucesso
+2026-10-29 19:15:01,747 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 19:15:01,747 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 19:15:01,747 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 19:15:01,747 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 19:15:02,064 - INFO - Consulta finalizada: 115 registros
+2026-10-29 19:15:02,069 - INFO - CSV gerado: relatorio_mutuca_20261029_191502.csv
+2026-10-29 19:15:04,672 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 19:15:04,674 - INFO - Automacao concluida com sucesso
+2026-10-29 19:30:01,978 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 19:30:01,978 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 19:30:01,978 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 19:30:01,978 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 19:30:02,304 - INFO - Consulta finalizada: 115 registros
+2026-10-29 19:30:02,308 - INFO - CSV gerado: relatorio_mutuca_20261029_193002.csv
+2026-10-29 19:30:04,914 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 19:30:04,916 - INFO - Automacao concluida com sucesso
+2026-10-29 19:45:01,203 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 19:45:01,203 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 19:45:01,203 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 19:45:01,204 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 19:45:01,538 - INFO - Consulta finalizada: 116 registros
+2026-10-29 19:45:01,543 - INFO - CSV gerado: relatorio_mutuca_20261029_194501.csv
+2026-10-29 19:45:05,122 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 19:45:05,125 - INFO - Automacao concluida com sucesso
+2026-10-29 20:00:01,403 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 20:00:01,403 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 20:00:01,403 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 20:00:01,403 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 20:00:01,691 - INFO - Consulta finalizada: 116 registros
+2026-10-29 20:00:01,695 - INFO - CSV gerado: relatorio_mutuca_20261029_200001.csv
+2026-10-29 20:00:04,439 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 20:00:04,442 - INFO - Automacao concluida com sucesso
+2026-10-29 20:15:01,708 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 20:15:01,708 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 20:15:01,708 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 20:15:01,708 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 20:15:01,952 - INFO - Consulta finalizada: 116 registros
+2026-10-29 20:15:01,953 - INFO - CSV gerado: relatorio_mutuca_20261029_201501.csv
+2026-10-29 20:15:04,538 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 20:15:04,540 - INFO - Automacao concluida com sucesso
+2026-10-29 20:30:01,824 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 20:30:01,824 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 20:30:01,824 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 20:30:01,824 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 20:30:02,124 - INFO - Consulta finalizada: 119 registros
+2026-10-29 20:30:02,129 - INFO - CSV gerado: relatorio_mutuca_20261029_203002.csv
+2026-10-29 20:30:04,724 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 20:30:04,726 - INFO - Automacao concluida com sucesso
+2026-10-29 20:45:01,987 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 20:45:01,988 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 20:45:01,988 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 20:45:01,988 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 20:45:02,283 - INFO - Consulta finalizada: 119 registros
+2026-10-29 20:45:02,284 - INFO - CSV gerado: relatorio_mutuca_20261029_204502.csv
+2026-10-29 20:45:04,805 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 20:45:04,807 - INFO - Automacao concluida com sucesso
+2026-10-29 21:00:02,097 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 21:00:02,097 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 21:00:02,097 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 21:00:02,097 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 21:00:02,350 - INFO - Consulta finalizada: 119 registros
+2026-10-29 21:00:02,354 - INFO - CSV gerado: relatorio_mutuca_20261029_210002.csv
+2026-10-29 21:00:04,914 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 21:00:04,916 - INFO - Automacao concluida com sucesso
+2026-10-29 21:15:01,217 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 21:15:01,217 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 21:15:01,217 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 21:15:01,217 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 21:15:01,491 - INFO - Consulta finalizada: 120 registros
+2026-10-29 21:15:01,510 - INFO - CSV gerado: relatorio_mutuca_20261029_211501.csv
+2026-10-29 21:15:04,106 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 21:15:04,108 - INFO - Automacao concluida com sucesso
+2026-10-29 21:30:01,395 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 21:30:01,395 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 21:30:01,395 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 21:30:01,396 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 21:30:01,688 - INFO - Consulta finalizada: 120 registros
+2026-10-29 21:30:01,693 - INFO - CSV gerado: relatorio_mutuca_20261029_213001.csv
+2026-10-29 21:30:04,262 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 21:30:04,264 - INFO - Automacao concluida com sucesso
+2026-10-29 21:45:01,550 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 21:45:01,550 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 21:45:01,551 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 21:45:01,551 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 21:45:01,851 - INFO - Consulta finalizada: 120 registros
+2026-10-29 21:45:01,855 - INFO - CSV gerado: relatorio_mutuca_20261029_214501.csv
+2026-10-29 21:45:04,484 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 21:45:04,486 - INFO - Automacao concluida com sucesso
+2026-10-29 22:00:01,766 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 22:00:01,766 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 22:00:01,766 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 22:00:01,766 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 22:00:02,020 - INFO - Consulta finalizada: 120 registros
+2026-10-29 22:00:02,024 - INFO - CSV gerado: relatorio_mutuca_20261029_220002.csv
+2026-10-29 22:00:04,750 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 22:00:04,752 - INFO - Automacao concluida com sucesso
+2026-10-29 22:15:02,033 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 22:15:02,033 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 22:15:02,033 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 22:15:02,033 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 22:15:02,269 - INFO - Consulta finalizada: 120 registros
+2026-10-29 22:15:02,274 - INFO - CSV gerado: relatorio_mutuca_20261029_221502.csv
+2026-10-29 22:15:04,944 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 22:15:04,946 - INFO - Automacao concluida com sucesso
+2026-10-29 22:30:01,225 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 22:30:01,225 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 22:30:01,225 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 22:30:01,225 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 22:30:01,507 - INFO - Consulta finalizada: 120 registros
+2026-10-29 22:30:01,511 - INFO - CSV gerado: relatorio_mutuca_20261029_223001.csv
+2026-10-29 22:30:04,150 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 22:30:04,152 - INFO - Automacao concluida com sucesso
+2026-10-29 22:45:01,431 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 22:45:01,431 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 22:45:01,432 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 22:45:01,432 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 22:45:01,671 - INFO - Consulta finalizada: 120 registros
+2026-10-29 22:45:01,675 - INFO - CSV gerado: relatorio_mutuca_20261029_224501.csv
+2026-10-29 22:45:04,282 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 22:45:04,284 - INFO - Automacao concluida com sucesso
+2026-10-29 23:00:01,560 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 23:00:01,561 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 23:00:01,561 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 23:00:01,561 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 23:00:01,812 - INFO - Consulta finalizada: 124 registros
+2026-10-29 23:00:01,813 - INFO - CSV gerado: relatorio_mutuca_20261029_230001.csv
+2026-10-29 23:00:04,555 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 23:00:04,557 - INFO - Automacao concluida com sucesso
+2026-10-29 23:15:01,838 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 23:15:01,838 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 23:15:01,838 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 23:15:01,839 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 23:15:02,077 - INFO - Consulta finalizada: 124 registros
+2026-10-29 23:15:02,082 - INFO - CSV gerado: relatorio_mutuca_20261029_231502.csv
+2026-10-29 23:15:04,695 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 23:15:04,697 - INFO - Automacao concluida com sucesso
+2026-10-29 23:30:01,984 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 23:30:01,985 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 23:30:01,985 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 23:30:01,985 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 23:30:02,247 - INFO - Consulta finalizada: 124 registros
+2026-10-29 23:30:02,249 - INFO - CSV gerado: relatorio_mutuca_20261029_233002.csv
+2026-10-29 23:30:04,765 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 23:30:04,767 - INFO - Automacao concluida com sucesso
+2026-10-29 23:45:02,049 - INFO - Iniciando Automacao API Mutuca
+2026-10-29 23:45:02,049 - INFO - Executando consulta no servidor Mutuca
+2026-10-29 23:45:02,049 - INFO - Periodo inicial: 2026-10-28 00:00:00
+2026-10-29 23:45:02,049 - INFO - Periodo final (exclusivo): 2026-10-29 00:00:00
+2026-10-29 23:45:02,288 - INFO - Consulta finalizada: 124 registros
+2026-10-29 23:45:02,293 - INFO - CSV gerado: relatorio_mutuca_20261029_234502.csv
+2026-10-29 23:45:04,915 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-29 23:45:04,917 - INFO - Automacao concluida com sucesso
+2026-10-30 00:00:01,212 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 00:00:01,213 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 00:00:01,213 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 00:00:01,213 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 00:00:01,471 - INFO - Consulta finalizada: 52 registros
+2026-10-30 00:00:01,472 - INFO - CSV gerado: relatorio_mutuca_20261030_000001.csv
+2026-10-30 00:00:04,168 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 00:00:04,169 - INFO - Automacao concluida com sucesso
+2026-10-30 00:15:01,767 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 00:15:01,767 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 00:15:01,767 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 00:15:01,767 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 00:15:01,992 - INFO - Consulta finalizada: 53 registros
+2026-10-30 00:15:01,995 - INFO - CSV gerado: relatorio_mutuca_20261030_001501.csv
+2026-10-30 00:15:04,579 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 00:15:04,581 - INFO - Automacao concluida com sucesso
+2026-10-30 00:30:01,867 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 00:30:01,868 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 00:30:01,868 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 00:30:01,868 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 00:30:02,095 - INFO - Consulta finalizada: 54 registros
+2026-10-30 00:30:02,096 - INFO - CSV gerado: relatorio_mutuca_20261030_003002.csv
+2026-10-30 00:30:04,586 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 00:30:04,588 - INFO - Automacao concluida com sucesso
+2026-10-30 00:45:01,871 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 00:45:01,871 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 00:45:01,871 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 00:45:01,871 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 00:45:02,097 - INFO - Consulta finalizada: 56 registros
+2026-10-30 00:45:02,101 - INFO - CSV gerado: relatorio_mutuca_20261030_004502.csv
+2026-10-30 00:45:04,672 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 00:45:04,674 - INFO - Automacao concluida com sucesso
+2026-10-30 01:00:01,942 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 01:00:01,942 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 01:00:01,942 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 01:00:01,942 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 01:00:02,174 - INFO - Consulta finalizada: 56 registros
+2026-10-30 01:00:02,175 - INFO - CSV gerado: relatorio_mutuca_20261030_010002.csv
+2026-10-30 01:00:04,811 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 01:00:04,813 - INFO - Automacao concluida com sucesso
+2026-10-30 01:15:02,098 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 01:15:02,098 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 01:15:02,098 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 01:15:02,098 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 01:15:02,331 - INFO - Consulta finalizada: 56 registros
+2026-10-30 01:15:02,332 - INFO - CSV gerado: relatorio_mutuca_20261030_011502.csv
+2026-10-30 01:15:04,916 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 01:15:04,918 - INFO - Automacao concluida com sucesso
+2026-10-30 01:30:01,208 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 01:30:01,209 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 01:30:01,209 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 01:30:01,209 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 01:30:01,433 - INFO - Consulta finalizada: 56 registros
+2026-10-30 01:30:01,437 - INFO - CSV gerado: relatorio_mutuca_20261030_013001.csv
+2026-10-30 01:30:03,983 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 01:30:03,985 - INFO - Automacao concluida com sucesso
+2026-10-30 01:45:01,244 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 01:45:01,244 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 01:45:01,244 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 01:45:01,244 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 01:45:01,472 - INFO - Consulta finalizada: 56 registros
+2026-10-30 01:45:01,476 - INFO - CSV gerado: relatorio_mutuca_20261030_014501.csv
+2026-10-30 01:45:04,048 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 01:45:04,050 - INFO - Automacao concluida com sucesso
+2026-10-30 02:00:01,331 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 02:00:01,331 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 02:00:01,331 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 02:00:01,331 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 02:00:01,558 - INFO - Consulta finalizada: 57 registros
+2026-10-30 02:00:01,562 - INFO - CSV gerado: relatorio_mutuca_20261030_020001.csv
+2026-10-30 02:00:04,191 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 02:00:04,193 - INFO - Automacao concluida com sucesso
+2026-10-30 02:15:01,470 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 02:15:01,470 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 02:15:01,471 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 02:15:01,471 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 02:15:01,697 - INFO - Consulta finalizada: 59 registros
+2026-10-30 02:15:01,701 - INFO - CSV gerado: relatorio_mutuca_20261030_021501.csv
+2026-10-30 02:15:04,220 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 02:15:04,222 - INFO - Automacao concluida com sucesso
+2026-10-30 02:30:01,507 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 02:30:01,507 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 02:30:01,507 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 02:30:01,507 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 02:30:01,733 - INFO - Consulta finalizada: 59 registros
+2026-10-30 02:30:01,736 - INFO - CSV gerado: relatorio_mutuca_20261030_023001.csv
+2026-10-30 02:30:04,258 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 02:30:04,260 - INFO - Automacao concluida com sucesso
+2026-10-30 02:45:01,538 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 02:45:01,539 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 02:45:01,539 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 02:45:01,539 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 02:45:01,802 - INFO - Consulta finalizada: 59 registros
+2026-10-30 02:45:01,806 - INFO - CSV gerado: relatorio_mutuca_20261030_024501.csv
+2026-10-30 02:45:04,334 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 02:45:04,336 - INFO - Automacao concluida com sucesso
+2026-10-30 03:00:01,617 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 03:00:01,617 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 03:00:01,618 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 03:00:01,618 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 03:00:01,851 - INFO - Consulta finalizada: 60 registros
+2026-10-30 03:00:01,852 - INFO - CSV gerado: relatorio_mutuca_20261030_030001.csv
+2026-10-30 03:00:04,382 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 03:00:04,384 - INFO - Automacao concluida com sucesso
+2026-10-30 03:15:01,679 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 03:15:01,679 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 03:15:01,679 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 03:15:01,679 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 03:15:01,909 - INFO - Consulta finalizada: 61 registros
+2026-10-30 03:15:01,912 - INFO - CSV gerado: relatorio_mutuca_20261030_031501.csv
+2026-10-30 03:15:04,611 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 03:15:04,613 - INFO - Automacao concluida com sucesso
+2026-10-30 03:30:01,881 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 03:30:01,882 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 03:30:01,882 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 03:30:01,882 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 03:30:02,106 - INFO - Consulta finalizada: 61 registros
+2026-10-30 03:30:02,107 - INFO - CSV gerado: relatorio_mutuca_20261030_033002.csv
+2026-10-30 03:30:04,692 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 03:30:04,694 - INFO - Automacao concluida com sucesso
+2026-10-30 03:45:01,973 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 03:45:01,973 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 03:45:01,974 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 03:45:01,974 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 03:45:02,203 - INFO - Consulta finalizada: 61 registros
+2026-10-30 03:45:02,207 - INFO - CSV gerado: relatorio_mutuca_20261030_034502.csv
+2026-10-30 03:45:05,209 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 03:45:05,211 - INFO - Automacao concluida com sucesso
+2026-10-30 04:00:01,499 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 04:00:01,499 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 04:00:01,499 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 04:00:01,499 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 04:00:01,734 - INFO - Consulta finalizada: 61 registros
+2026-10-30 04:00:01,738 - INFO - CSV gerado: relatorio_mutuca_20261030_040001.csv
+2026-10-30 04:00:04,450 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 04:00:04,452 - INFO - Automacao concluida com sucesso
+2026-10-30 04:15:01,731 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 04:15:01,731 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 04:15:01,731 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 04:15:01,731 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 04:15:01,960 - INFO - Consulta finalizada: 63 registros
+2026-10-30 04:15:01,961 - INFO - CSV gerado: relatorio_mutuca_20261030_041501.csv
+2026-10-30 04:15:04,579 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 04:15:04,581 - INFO - Automacao concluida com sucesso
+2026-10-30 04:30:01,872 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 04:30:01,872 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 04:30:01,872 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 04:30:01,872 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 04:30:02,103 - INFO - Consulta finalizada: 63 registros
+2026-10-30 04:30:02,107 - INFO - CSV gerado: relatorio_mutuca_20261030_043002.csv
+2026-10-30 04:30:04,861 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 04:30:04,863 - INFO - Automacao concluida com sucesso
+2026-10-30 04:45:02,142 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 04:45:02,142 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 04:45:02,142 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 04:45:02,143 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 04:45:02,367 - INFO - Consulta finalizada: 63 registros
+2026-10-30 04:45:02,371 - INFO - CSV gerado: relatorio_mutuca_20261030_044502.csv
+2026-10-30 04:45:04,969 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 04:45:04,974 - INFO - Automacao concluida com sucesso
+2026-10-30 05:00:01,236 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 05:00:01,237 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 05:00:01,237 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 05:00:01,237 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 05:00:01,472 - INFO - Consulta finalizada: 63 registros
+2026-10-30 05:00:01,473 - INFO - CSV gerado: relatorio_mutuca_20261030_050001.csv
+2026-10-30 05:00:05,553 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 05:00:05,555 - INFO - Automacao concluida com sucesso
+2026-10-30 05:15:01,834 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 05:15:01,835 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 05:15:01,835 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 05:15:01,835 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 05:15:02,058 - INFO - Consulta finalizada: 63 registros
+2026-10-30 05:15:02,059 - INFO - CSV gerado: relatorio_mutuca_20261030_051502.csv
+2026-10-30 05:15:04,622 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 05:15:04,624 - INFO - Automacao concluida com sucesso
+2026-10-30 05:30:01,903 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 05:30:01,903 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 05:30:01,903 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 05:30:01,903 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 05:30:02,128 - INFO - Consulta finalizada: 63 registros
+2026-10-30 05:30:02,132 - INFO - CSV gerado: relatorio_mutuca_20261030_053002.csv
+2026-10-30 05:30:04,884 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 05:30:04,886 - INFO - Automacao concluida com sucesso
+2026-10-30 05:45:02,158 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 05:45:02,158 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 05:45:02,158 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 05:45:02,158 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 05:45:02,458 - INFO - Consulta finalizada: 63 registros
+2026-10-30 05:45:02,462 - INFO - CSV gerado: relatorio_mutuca_20261030_054502.csv
+2026-10-30 05:45:06,999 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 05:45:07,001 - INFO - Automacao concluida com sucesso
+2026-10-30 06:00:01,278 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 06:00:01,278 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 06:00:01,278 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 06:00:01,278 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 06:00:01,506 - INFO - Consulta finalizada: 63 registros
+2026-10-30 06:00:01,507 - INFO - CSV gerado: relatorio_mutuca_20261030_060001.csv
+2026-10-30 06:00:03,996 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 06:00:03,998 - INFO - Automacao concluida com sucesso
+2026-10-30 06:15:01,275 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 06:15:01,276 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 06:15:01,276 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 06:15:01,276 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 06:15:01,517 - INFO - Consulta finalizada: 63 registros
+2026-10-30 06:15:01,521 - INFO - CSV gerado: relatorio_mutuca_20261030_061501.csv
+2026-10-30 06:15:04,094 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 06:15:04,096 - INFO - Automacao concluida com sucesso
+2026-10-30 06:30:01,389 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 06:30:01,389 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 06:30:01,389 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 06:30:01,389 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 06:30:01,652 - INFO - Consulta finalizada: 63 registros
+2026-10-30 06:30:01,655 - INFO - CSV gerado: relatorio_mutuca_20261030_063001.csv
+2026-10-30 06:30:04,280 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 06:30:04,282 - INFO - Automacao concluida com sucesso
+2026-10-30 06:45:01,564 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 06:45:01,564 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 06:45:01,564 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 06:45:01,565 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 06:45:01,794 - INFO - Consulta finalizada: 63 registros
+2026-10-30 06:45:01,798 - INFO - CSV gerado: relatorio_mutuca_20261030_064501.csv
+2026-10-30 06:45:04,543 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 06:45:04,543 - INFO - Automacao concluida com sucesso
+2026-10-30 07:00:01,780 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 07:00:01,780 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 07:00:01,780 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 07:00:01,780 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 07:00:02,006 - INFO - Consulta finalizada: 63 registros
+2026-10-30 07:00:02,007 - INFO - CSV gerado: relatorio_mutuca_20261030_070002.csv
+2026-10-30 07:00:04,479 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 07:00:04,480 - INFO - Automacao concluida com sucesso
+2026-10-30 07:15:01,760 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 07:15:01,761 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 07:15:01,761 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 07:15:01,761 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 07:15:01,985 - INFO - Consulta finalizada: 63 registros
+2026-10-30 07:15:01,986 - INFO - CSV gerado: relatorio_mutuca_20261030_071501.csv
+2026-10-30 07:15:04,667 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 07:15:04,669 - INFO - Automacao concluida com sucesso
+2026-10-30 07:30:01,966 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 07:30:01,966 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 07:30:01,966 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 07:30:01,966 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 07:30:02,200 - INFO - Consulta finalizada: 63 registros
+2026-10-30 07:30:02,201 - INFO - CSV gerado: relatorio_mutuca_20261030_073002.csv
+2026-10-30 07:30:04,768 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 07:30:04,770 - INFO - Automacao concluida com sucesso
+2026-10-30 07:45:02,052 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 07:45:02,052 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 07:45:02,052 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 07:45:02,052 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 07:45:02,325 - INFO - Consulta finalizada: 63 registros
+2026-10-30 07:45:02,329 - INFO - CSV gerado: relatorio_mutuca_20261030_074502.csv
+2026-10-30 07:45:04,915 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 07:45:04,917 - INFO - Automacao concluida com sucesso
+2026-10-30 08:00:01,191 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 08:00:01,192 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 08:00:01,192 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 08:00:01,192 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 08:00:01,427 - INFO - Consulta finalizada: 63 registros
+2026-10-30 08:00:01,431 - INFO - CSV gerado: relatorio_mutuca_20261030_080001.csv
+2026-10-30 08:00:04,187 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 08:00:04,189 - INFO - Automacao concluida com sucesso
+2026-10-30 08:15:01,474 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 08:15:01,475 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 08:15:01,475 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 08:15:01,475 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 08:15:01,746 - INFO - Consulta finalizada: 65 registros
+2026-10-30 08:15:01,749 - INFO - CSV gerado: relatorio_mutuca_20261030_081501.csv
+2026-10-30 08:15:04,378 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 08:15:04,380 - INFO - Automacao concluida com sucesso
+2026-10-30 08:30:01,665 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 08:30:01,665 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 08:30:01,666 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 08:30:01,666 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 08:30:01,909 - INFO - Consulta finalizada: 65 registros
+2026-10-30 08:30:01,910 - INFO - CSV gerado: relatorio_mutuca_20261030_083001.csv
+2026-10-30 08:30:04,651 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 08:30:04,653 - INFO - Automacao concluida com sucesso
+2026-10-30 08:45:01,937 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 08:45:01,937 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 08:45:01,937 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 08:45:01,937 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 08:45:02,163 - INFO - Consulta finalizada: 65 registros
+2026-10-30 08:45:02,164 - INFO - CSV gerado: relatorio_mutuca_20261030_084502.csv
+2026-10-30 08:45:04,669 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 08:45:04,671 - INFO - Automacao concluida com sucesso
+2026-10-30 09:00:01,952 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 09:00:01,952 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 09:00:01,952 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 09:00:01,952 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 09:00:02,185 - INFO - Consulta finalizada: 65 registros
+2026-10-30 09:00:02,188 - INFO - CSV gerado: relatorio_mutuca_20261030_090002.csv
+2026-10-30 09:00:04,827 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 09:00:04,829 - INFO - Automacao concluida com sucesso
+2026-10-30 09:15:02,105 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 09:15:02,105 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 09:15:02,105 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 09:15:02,105 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 09:15:02,374 - INFO - Consulta finalizada: 65 registros
+2026-10-30 09:15:02,377 - INFO - CSV gerado: relatorio_mutuca_20261030_091502.csv
+2026-10-30 09:15:04,953 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 09:15:04,955 - INFO - Automacao concluida com sucesso
+2026-10-30 09:30:01,241 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 09:30:01,241 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 09:30:01,241 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 09:30:01,241 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 09:30:01,515 - INFO - Consulta finalizada: 65 registros
+2026-10-30 09:30:01,519 - INFO - CSV gerado: relatorio_mutuca_20261030_093001.csv
+2026-10-30 09:30:04,299 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 09:30:04,301 - INFO - Automacao concluida com sucesso
+2026-10-30 09:45:01,585 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 09:45:01,585 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 09:45:01,585 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 09:45:01,585 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 09:45:01,855 - INFO - Consulta finalizada: 65 registros
+2026-10-30 09:45:01,859 - INFO - CSV gerado: relatorio_mutuca_20261030_094501.csv
+2026-10-30 09:45:05,225 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 09:45:05,227 - INFO - Automacao concluida com sucesso
+2026-10-30 10:00:01,493 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 10:00:01,493 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 10:00:01,493 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 10:00:01,493 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 10:00:01,732 - INFO - Consulta finalizada: 69 registros
+2026-10-30 10:00:01,733 - INFO - CSV gerado: relatorio_mutuca_20261030_100001.csv
+2026-10-30 10:00:04,406 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 10:00:04,408 - INFO - Automacao concluida com sucesso
+2026-10-30 10:15:01,697 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 10:15:01,697 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 10:15:01,697 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 10:15:01,697 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 10:15:01,946 - INFO - Consulta finalizada: 70 registros
+2026-10-30 10:15:01,949 - INFO - CSV gerado: relatorio_mutuca_20261030_101501.csv
+2026-10-30 10:15:05,701 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 10:15:05,703 - INFO - Automacao concluida com sucesso
+2026-10-30 10:30:01,991 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 10:30:01,991 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 10:30:01,991 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 10:30:01,991 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 10:30:02,265 - INFO - Consulta finalizada: 72 registros
+2026-10-30 10:30:02,267 - INFO - CSV gerado: relatorio_mutuca_20261030_103002.csv
+2026-10-30 10:30:05,096 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 10:30:05,098 - INFO - Automacao concluida com sucesso
+2026-10-30 10:45:01,380 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 10:45:01,380 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 10:45:01,381 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 10:45:01,381 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 10:45:01,616 - INFO - Consulta finalizada: 74 registros
+2026-10-30 10:45:01,620 - INFO - CSV gerado: relatorio_mutuca_20261030_104501.csv
+2026-10-30 10:45:04,388 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 10:45:04,390 - INFO - Automacao concluida com sucesso
+2026-10-30 11:00:01,668 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 11:00:01,668 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 11:00:01,668 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 11:00:01,668 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 11:00:01,896 - INFO - Consulta finalizada: 74 registros
+2026-10-30 11:00:01,897 - INFO - CSV gerado: relatorio_mutuca_20261030_110001.csv
+2026-10-30 11:00:06,556 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 11:00:06,558 - INFO - Automacao concluida com sucesso
+2026-10-30 11:15:01,837 - INFO - Iniciando Automacao API Mutuca
+2026-10-30 11:15:01,838 - INFO - Executando consulta no servidor Mutuca
+2026-10-30 11:15:01,838 - INFO - Periodo inicial: 2026-10-29 00:00:00
+2026-10-30 11:15:01,838 - INFO - Periodo final (exclusivo): 2026-10-30 00:00:00
+2026-10-30 11:15:02,107 - INFO - Consulta finalizada: 74 registros
+2026-10-30 11:15:02,108 - INFO - CSV gerado: relatorio_mutuca_20261030_111502.csv
+2026-10-30 11:15:05,168 - INFO - Relatorio enviado para 3 destinatario(s)
+2026-10-30 11:15:05,170 - INFO - Automacao concluida com sucesso
